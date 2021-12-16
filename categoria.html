@@ -117,22 +117,29 @@
       </ul>
     </div>
     <div>
-      <h2>Categoria 1</h2>
+      <h3>Categoria 1</h3>
       <form>
         <input type="text" name="combobox" value="Seleccione un reporte" />
         <select name="combobox" id="combobox">
           <option value="Option 1"></option>
         </select>
         <input type="button" value="Acceder" />
-        <div>
-          <input type="date" placeholder="Ingrese periodo" />
-          <input type="text" placeholder="Ingrese parámetro 1" />
-          <input type="text" placeholder="Ingrese parámetro 2" />
-          <input type="file" placeholder="Ingrese archivo" />
+      </form>
+      <div>
+        <h4>Información requerida</h4>
+        <form>
+          <label for="date">Ingrese periodo</label>
+          <input id="date" type="date" />
+          <label for="parametro1">Ingrese parámetro 1</label>
+          <input id="parametro1" type="text" />
+          <label for="parametro2">Ingrese parámetro 2</label>
+          <input id="parametro2" type="text" />
+          <label for="archivo">Ingrese archivo</label>
+          <input id="archivo" type="file" />
           <input type="button" value="Planificar Reporte" />
           <input type="button" value="Ejecutar Reporte" />
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </body>
 </html>
