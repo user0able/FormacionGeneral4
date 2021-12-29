@@ -103,7 +103,6 @@ body {
 
 .main {
   height: calc(100vh - 48px);
-  display: flex;
 }
 
 .bienvenido-img {
@@ -114,3 +113,30 @@ body {
 }
 
 /* End Dashboard */
+
+.submenu {
+  background-color: #fff;
+  height: 81px;
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  border-bottom: 1px solid #ed1650;
+}
+
+.submenu h3 {
+  margin-left: 30px;
+  font: normal 24px Arial;
+  color: #000000;
+}
+
+.categories {
+  background-color: #444;
+  width: 237px;
+  height: 603px;
+}
+
+.category-detail {
+  background-color: #888;
+  width: 776px;
+  height: 603px;
+}
