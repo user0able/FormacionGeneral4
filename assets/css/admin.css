@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #EDEDED;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #1b0088;
+  width: 306px;
+  border-bottom: #ED1650 solid 3px;
+  padding: auto 43px;
+}
+
+.content {
+  width: calc(100% - 306px);
+}
