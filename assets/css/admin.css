@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #ededed;
+  background-color: #EDEDED;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   height: 100vh;
@@ -16,8 +16,8 @@ body {
   width: 306px;
   padding: 56px 43px 43px 29px;
   color: white;
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar h1 {
@@ -78,11 +78,37 @@ body {
   align-items: center;
 }
 
-.navbar .logout {    
-	margin-top: auto;
+.navbar .logout {
+  margin-top: auto;
   justify-content: center;
 }
 
 .content {
   width: calc(100% - 306px);
 }
+
+.menu-top {
+  background-color: #0c013b;
+  color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  padding: 0 15px 0 9px;
+  height: 48px;
+  box-shadow: 0px 3px 6px #00000059;
+}
+
+.main {
+  height: calc(100vh - 48px);
+  display: flex;
+  align-items: center;
+}
+
+.bienvenido-img {
+  height:  77.1px;
+  width: 418px;  
+  margin-left: 134px;
+}
+
+/* End Dashboard */
