@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #EDEDED;
+  background-color: #ededed;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   height: 100vh;
@@ -12,9 +12,75 @@ body {
 
 .navbar {
   background-color: #1b0088;
+  border-bottom: #ed1650 solid 3px;
   width: 306px;
-  border-bottom: #ED1650 solid 3px;
-  padding: auto 43px;
+  padding: 56px 43px 43px 29px;
+  color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+.navbar h1 {
+  text-align: center;
+}
+
+.navbar h2 {
+  font-size: 25px;
+  border-bottom: 3px solid #ed1650;
+  padding-bottom: 13.5px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar div {
+  margin-top: 41.6px;
+  padding: 28.4px 0 28.4px 28.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar div p {
+  margin-left: 13px;
+}
+
+.navbar li {
+  margin-top: 32.8px;
+  font-weight: bold;
+  font-size: 16px;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12.5px;
+}
+
+.navbar li li {
+  border-bottom: 3px solid #00afa9;
+  margin-left: 17px;
+  font-size: 16 px;
+  margin-top: 13.5px;
+  font-weight: bold;
+  padding-bottom: 12.5px;
+}
+
+.navbar div {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar .logout {    
+	margin-top: auto;
+  justify-content: center;
 }
 
 .content {
