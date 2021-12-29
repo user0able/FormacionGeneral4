@@ -3,3 +3,37 @@
   margin: 0;
 }
 
+body {
+  background-color: #1b0088;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 61px;
+  color: white;
+}
+
+img {
+  width: 91px;
+  height: 91px;
+  margin-top: 49px;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #1b0088;
+  background-color: #fff;
+  width: 143px;
+  text-align: center;
+  height: 37px;
+  font-weight: bold;
+  border-radius: 5px;
+  line-height: 37px;
+  margin-top: 37px;
+}
