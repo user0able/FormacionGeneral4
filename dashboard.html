@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/css/admin.css" />
   </head>
   <body>
-    <div>
+    <div class="navbar">
       <h1>BECA DFRONTT</h1>
       <div>
         <img
@@ -18,14 +19,17 @@
       </div>
       <ul>
         <li>
-          <p>Informaciones</p>
-          <img src="assets/img/icons/icon-collapse.svg" alt="Icon collapse" />
+          <h2>Informaciones</h2>
+          <img
+            src="assets/img/icons/icon-collapse.svg"
+            alt="Icono collapse"
+          />
           <ul>
             <li>
               <a title="Reportes" href="reportes.html">
                 <img
                   src="assets/img/icons/icon-report.svg"
-                  alt="Icon Reportes"
+                  alt="Icono Reportes"
                 />
                 Reportes
               </a>
@@ -33,23 +37,31 @@
           </ul>
         </li>
       </ul>
-      <a title="Cerrar Sesión" href="index.html">
+      <a class="logout" title="Cerrar Sesión" href="index.html">
         <p>Cerrar sesión</p>
-        <img src="assets/img/icons/Icon material-exit-to-app.svg" alt="" />
+        <img
+          src="assets/img/icons/Icon-sign-off.svg"
+          alt="Icono cerrar sesión"
+        />
       </a>
     </div>
-    <div>
-      <img src="assets/img/icons/btn-menu.svg" alt="Menu icon" />
-      <img
-        src="assets/img/icons/Icon material-settings.svg"
-        alt="Icon Settings"
-      />
-      <p>ES</p>
-      <!-- TODO: Aquí tengo duda, de qué era el "ES" -->
-    </div>
-    <div>
-      <h1>Bienvenido a la beca DFRONTT</h1>
-      <p>Por favor ingresa a la sección que deseas</p>
+    <div class="content">
+      <div>
+        <div>
+          <img src="assets/img/icons/btn-menu.svg" alt="Icono menu" />
+        </div>
+        <div>
+          <img
+            src="assets/img/icons/Icon material-settings.svg"
+            alt="Icono herramientas"
+          />
+          <p>ES</p>
+        </div>
+      </div>
+      <div>
+        <h1>Bienvenido a la beca DFRONTT</h1>
+        <p>Por favor ingresa a la sección que deseas</p>
+      </div>
     </div>
   </body>
 </html>
