@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reportes</title>
+    <link rel="stylesheet" href="assets/css/admin.css" />
   </head>
   <body>
-    <div>
+    <div class="navbar">
       <h1>BECA DFRONTT</h1>
       <div>
         <img
@@ -18,127 +19,71 @@
       </div>
       <ul>
         <li>
-          <p>Informaciones</p>
-          <img src="assets/img/icons/icon-collapse.svg" alt="Icon collapse" />
+          <h2>Informaciones</h2>
           <ul>
             <li>
-              <a title="Reportes" href="reportes.html">
-                <img
-                  src="assets/img/icons/icon-report.svg"
-                  alt="Icon Reportes"
-                />
-                Reportes
-              </a>
+              <a title="Reportes" href="reportes.html"> Reportes </a>
             </li>
           </ul>
         </li>
       </ul>
-      <a title="Cerrar Sesión" href="index.html">
+      <a class="logout" title="Cerrar Sesión" href="index.html">
         <p>Cerrar sesión</p>
-        <img src="assets/img/icons/Icon material-exit-to-app.svg" alt="" />
       </a>
     </div>
-    <div>
-      <img src="assets/img/icons/btn-menu.svg" alt="Menu icon" />
-      <img
-        src="assets/img/icons/Icon material-settings.svg"
-        alt="Icon Settings"
-      />
-      <p>ES</p>
-      <!-- TODO: Aquí tengo duda, de qué era el "ES" -->
-    </div>
-    <div>
-      <img src="assets\img\Grupo 499.png" alt="Icon Reports" />
-      <p>Reportes</p>
-    </div>
-    <div>
-      <h2>Categorías</h2>
-      <ul>
-        <li>
-          <a href="categoria.html">
-            <p>Categoría 1</p>
-            <img src="assets/img/icons/icon-folder.svg" alt="Icon Folder" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>Categoría 2</p>
-            <img src="assets/img/icons/icon-folder.svg" alt="Icon Folder" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>Categoría 3</p>
-            <img src="assets/img/icons/icon-folder.svg" alt="Icon Folder" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>Categoría 4</p>
-            <img src="assets/img/icons/icon-folder.svg" alt="Icon Folder" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>Categoría 5</p>
-            <img src="assets/img/icons/icon-folder.svg" alt="Icon Folder" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>Categoría 6</p>
-            <img src="assets/img/icons/icon-folder.svg" alt="Icon Folder" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>Categoría 7</p>
-            <img src="assets/img/icons/icon-folder.svg" alt="Icon Folder" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>Categoría 8</p>
-            <img src="assets/img/icons/icon-folder.svg" alt="Icon Folder" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>Categoría 9</p>
-            <img src="assets/img/icons/icon-folder.svg" alt="Icon Folder" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>Categoría 10</p>
-            <img src="assets/img/icons/icon-folder.svg" alt="Icon Folder" />
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div>
-      <h3>Categoria 1</h3>
-      <form>
-        <input type="text" name="combobox" value="Seleccione un reporte" />
-        <select name="combobox" id="combobox">
-          <option value="Option 1"></option>
-        </select>
-        <input type="button" value="Acceder" />
-      </form>
-      <div>
-        <h4>Información requerida</h4>
-        <form>
-          <label for="date">Ingrese periodo</label>
-          <input id="date" type="date" />
-          <label for="parametro1">Ingrese parámetro 1</label>
-          <input id="parametro1" type="text" />
-          <label for="parametro2">Ingrese parámetro 2</label>
-          <input id="parametro2" type="text" />
-          <label for="archivo">Ingrese archivo</label>
-          <input id="archivo" type="file" />
-          <input type="button" value="Planificar Reporte" />
-          <input type="button" value="Ejecutar Reporte" />
-        </form>
+    <div class="content">
+      <div class="menu-top">
+        <div>
+          <img src="assets/img/icons/btn-menu.svg" alt="Icono menu" />
+        </div>
+        <div>
+          <p>ES</p>
+        </div>
+      </div>
+      <div class="submenu">
+        <h3>Reportes</h3>
+      </div>
+      <div class="main">
+        <div class="categories">
+          <h4>Categorías</h4>
+          <ul>
+            <li><a href="categoria.html">Categoría 1</a></li>
+            <li>Categoría 2</li>
+            <li>Categoría 3</li>
+            <li>Categoría 4</li>
+            <li>Categoría 5</li>
+            <li>Categoría 6</li>
+            <li>Categoría 7</li>
+            <li>Categoría 8</li>
+            <li>Categoría 9</li>
+            <li>Categoría 10</li>
+          </ul>
+        </div>
+        <div class="report-detail">
+          <h4>Categoria 1</h4>
+          <form>
+            <input type="text" name="combobox" value="Seleccione un reporte" />
+            <select name="combobox" id="combobox">
+              <option value="Option 1"></option>
+            </select>
+            <button type="button">Acceder</button>
+          </form>
+          <div>
+            <h5>Información requerida</h5>
+            <form>
+              <label for="date">Ingrese periodo</label>
+              <input id="date" type="date" />
+              <label for="parametro1">Ingrese parámetro 1</label>
+              <input id="parametro1" type="text" />
+              <label for="parametro2">Ingrese parámetro 2</label>
+              <input id="parametro2" type="text" />
+              <label for="archivo">Ingrese archivo</label>
+              <input id="archivo" type="file" />
+              <input type="button" value="Planificar Reporte" />
+              <input type="button" value="Ejecutar Reporte" />
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </body>
